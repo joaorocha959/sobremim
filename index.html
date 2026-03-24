@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático</title>
+    <style>
+    .body{
+    background: #a4cdf5;
+}
+#header{
+    background-color:#1dcade ;
+    display: grid;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+#titulo{
+    font-size: 40px;
+    color:#032c49;
+    text-align: center;
+    padding: 0px;
+    width: none;
+}
+#descricao{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: #032c49;
+}
+/* controla o alinhamento e o espaço entre os botões */
+#menu-container {
+  display: flex;
+  gap: 20px;           
+  justify-content: center; 
+}
+
+/*Visual de todos os botões ao mesmo tempo */
+.botao-menu {
+  display: inline-block;
+  padding: 30px 34px;
+  width: 300px;        /* Tamanho padrão para todos */
+  text-align: center;
+  text-decoration: none;
+  background-color: #4A90E2;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.botao-menu:hover {
+  background-color: #a4cdf5;
+  
+}
+.img-post{
+  padding: 30px;
+  display: block;   
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;       
+}
+
+#menu-container-sobre {
+  display: flex;
+  gap: 20px;           
+  justify-content: center; 
+}
+   </style>
+</head>
+<body>
+    <div id="header">
+        <h1 id = "titulo">Olá! <br> Meu nome é João Antonio Rocha Afonso           
+    <br>
+        <h3 id="descricao">Sou um estudante de <br> Análise e Desenvolvimento de Sistemas</h3>
+    </div>
+    <nav id="menu-container">
+        <a href="index.html" class="botao-menu">Sobre Mim</a>
+        <a href="portfolio.html" class="botao-menu">Portfólio</a>
+        <a href="formacao.html" class="botao-menu">Formação</a>
+        <a href="contato.html" class="botao-menu">Contato</a>
+   </nav>
+
+    <img class="img-post" src="C:\Users\jrafo\Documents\ADS faculdade\HTML\projeto_trabalhoPrático\Imagem\Página de Apresentação Profissional.png" alt="">
+    </div>
+</body>
+</html>
